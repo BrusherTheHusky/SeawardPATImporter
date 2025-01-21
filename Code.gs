@@ -1,4 +1,4 @@
-const templateHeaders = ['TEST NUMBER', 'DATE',	'TIME',	'TESTER',	'APP NO',	'TEST MODE',	'EARTH CURRENT',	'EARTH',	'IEC',	'INS',	'LEAD CONTINUITY',	'USER',	'SITE',	'TEXT']
+const templateHeaders = ['TEST NUMBER', 'DATE', 'TIME', 'TESTER', 'APP NO', 'TEST MODE', 'EARTH CURRENT', 'EARTH', 'IEC', 'INS', 'LEAD CONTINUITY', 'USER', 'SITE', 'TEXT']
 const lock = LockService.getDocumentLock();
 
 function getLock(timeout) {
