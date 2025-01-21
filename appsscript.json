@@ -1,0 +1,30 @@
+{
+  "timeZone": "Europe/London",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/spreadsheets.currentonly"
+  ],
+  "runtimeVersion": "V8",
+  "addOns": {
+    "common": {
+      "name": "Seaward PAT Importer",
+      "logoUrl": "https://raw.githubusercontent.com/BrusherTheHusky/SeawardPATImporter/refs/heads/main/icon.png",
+      "layoutProperties": {
+        "primaryColor": "#C6263E",
+        "secondaryColor": "#931C2E"
+      },
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
+      },
+      "openLinkUrlPrefixes": [
+        "https://www.github.com"
+      ],
+      "universalActions": [{
+        "label": "View on GitHub",
+        "openLink": "https://www.github.com/BrusherTheHusky/SeawardPATImporter"
+      }]
+    },
+    "sheets": {}
+  }
+}
